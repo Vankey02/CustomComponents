@@ -1,0 +1,12 @@
+body {
+  background-color: #222;
+  font-family: "Courier New", Courier, monospace;
+  background-image: linear-gradient(to bottom left, #4d2d18, white);
+}
+
+.hover-shadow:hover {
+  -webkit-box-shadow: 0px 0px 8px -2px #cfdde6;
+  -moz-box-shadow: 0px 0px 8px -2px #cfdde6;
+  box-shadow: 0px 0px 8px -2px #cfdde6;
+  /* border: 2px solid pink; */
+}
