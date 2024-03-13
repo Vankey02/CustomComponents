@@ -10,3 +10,12 @@ body {
   box-shadow: 0px 0px 8px -2px #cfdde6;
   /* border: 2px solid pink; */
 }
+
+.maska {
+  position: absolute;
+  mask-image: url("./Ellipse.svg");
+  background: orange;
+  object-fit: cover;
+  margin: auto;
+  /* mask-repeat: no-repeat; */
+}

@@ -2,6 +2,7 @@ import "./App.css";
 import BarCodeReader from "./components/BarCodeReader/BarCodeReader";
 import DatePicker from "./components/Datepicker/DatePicker";
 import HoverFill from "./components/HoverFill/HoverFill";
+import MaskHoverRipple from "./components/MaskHoverRipple/MaskHoverRipple";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
         <DatePicker />
         <BarCodeReader />
         <HoverFill />
+        <MaskHoverRipple />
       </div>
     </>
   );
